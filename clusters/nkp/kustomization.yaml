@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30s
-  path: ./clusters/nkp/apps
+  path: ./clusters/nkp/apps/nginx
   prune: true
   sourceRef:
     kind: GitRepository
